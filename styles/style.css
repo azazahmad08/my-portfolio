@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
 
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,11 +20,26 @@ body {
 
 }
 
+.btn-primary1 {
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 18px 35px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+
 
 
 }
@@ -61,15 +75,72 @@ nav a {
 
 header {
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+
+}
+
+.banner-content {
+    max-width: 500px;
 }
 
 .banner .profilepic {
     width: 500px;
 
+}
+
+.banner-greetings {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.bannerheading {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin: 0px;
+
+}
+
+.banner p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.aboutme {
+    padding: 130px;
+    border-radius: 2px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color:#181818;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    
+    
 }
