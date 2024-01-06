@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
 
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,7 +13,7 @@ body {
     border: none;
     border-radius: 5px;
     background: #FD6E0A;
-    color:white;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
@@ -22,6 +23,10 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
 
 }
 
@@ -38,14 +43,33 @@ nav span {
 
 nav ul {
     display: flex;
+    align-items: center;
+
 }
 
 nav li {
     list-style: none;
     margin-right: 50px;
+
 }
 
 nav a {
     text-decoration: none;
     color: #000000;
+
+}
+
+header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profilepic {
+    width: 500px;
+
 }
